@@ -4,7 +4,7 @@ import random
 
 
 def enviar_email(email_destinatario):
-    password = 'flgvyttwsyrnmsbd'  # Senha App gmail gerada automática
+    password = '...'  # Senha App gmail gerada automática
     print(email_destinatario)
 
     senha_autenticacao = ''
@@ -20,7 +20,7 @@ def enviar_email(email_destinatario):
 
     msg = email.message.Message()
     msg['Subject'] = titulo  # Título
-    msg['From'] = 'guimera.sistem@gmail.com'  # Remetente
+    msg['From'] = 'emailteste@gmail.com'  # Remetente
     msg['To'] = f'{email_destinatario}'  # destinatário
 
     msg.add_header('Content-Type', 'text/html')  # Configurações site html
