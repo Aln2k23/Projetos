@@ -24,12 +24,12 @@ def SeeSites(http):
 
     elif string_new == 'HTPP/1.1 4':
         print('Servidor cliente está com erro!')
-        Send.send('alan.cavalcante@fusp.org.br', 'Servidor cliente está com erro!')
+        Send.send('emailteste@gmail.comr', 'Servidor cliente está com erro!')
 
     elif string_new == 'HTTP/1.1 5':
         print('Servidor com erro!')
-        Send.send('alan.cavalcante@fusp.org.br','Servidor com erro!')
+        Send.send('emailteste@gmail.com','Servidor com erro!')
 
     else:
         print('Site não encontrado!')
-        Send.send('alan.cavalcante@fusp.org.br','Site não encontrado!')
+        Send.send('emailteste@gmail.com','Site não encontrado!')
