@@ -2,7 +2,7 @@ import pyodbc
 
 
 dados_conexao = ('Driver={SQL Server};'
-                 'Server=AlanPc\SQLALAN;' 
+                 'Server=...;' 
                  'Database=NewMetals;')
 
 conexao = pyodbc.connect(dados_conexao)
