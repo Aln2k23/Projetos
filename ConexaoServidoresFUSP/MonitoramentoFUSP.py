@@ -18,40 +18,18 @@ managerweb, ip = ConnectionServers.Ping_Hosts('managerweb.fusp.org.br')
 ConnectionServers.Validate_Datas(managerweb, ip)
 
 
-# Servidores FUSP/USP
+# Servidores
 
-srvprint, ip = ConnectionServers.Ping_Hosts('srvprint02')
-ConnectionServers.Validate_Datas(srvprint, ip)
+youtube, ip = ConnectionServers.Ping_Hosts('youtube.com')
+ConnectionServers.Validate_Datas(youtube, ip)
 
-srvscfp, ip = ConnectionServers.Ping_Hosts('srvscfp')
-ConnectionServers.Validate_Datas(srvscfp, ip)
+gmail, ip = ConnectionServers.Ping_Hosts('gmail.com')
+ConnectionServers.Validate_Datas(gmail, ip)
 
-srvsql2017, ip = ConnectionServers.Ping_Hosts('srvsql2017')
-ConnectionServers.Validate_Datas(srvsql2017, ip)
+servidorteste, ip = ConnectionServers.Ping_Hosts('srvimpressora')
+ConnectionServers.Validate_Datas(servidorteste, ip)
 
-srvsql2014, ip = ConnectionServers.Ping_Hosts('srvsql2014')
-ConnectionServers.Validate_Datas(srvsql2014, ip)
 
-srvapptrc, ip = ConnectionServers.Ping_Hosts('srvapptrc')
-ConnectionServers.Validate_Datas(srvapptrc, ip)
-
-srvfile, ip = ConnectionServers.Ping_Hosts('srvfile')
-ConnectionServers.Validate_Datas(srvfile, ip)
-
-srvdc02, ip = ConnectionServers.Ping_Hosts('srvdc02')
-ConnectionServers.Validate_Datas(srvdc02, ip)
-
-srvapp, ip = ConnectionServers.Ping_Hosts('srvapp')
-ConnectionServers.Validate_Datas(srvapp, ip)
-
-srvweb02, ip = ConnectionServers.Ping_Hosts('srvweb02')
-ConnectionServers.Validate_Datas(srvweb02, ip)
-
-srvmanager02, ip = ConnectionServers.Ping_Hosts('srvmanager02')
-ConnectionServers.Validate_Datas(srvmanager02, ip)
-
-srvtaf, ip = ConnectionServers.Ping_Hosts('srvtaf')
-ConnectionServers.Validate_Datas(srvtaf, ip)
 
 print('\nFim do monitoramento, será efetuado novamente daqui a 1 hora.')
 sleep(5)
