@@ -1,11 +1,11 @@
 
-Disparando srvtaf.fusp.local [192.168.1.19] com 32 bytes de dados:
-Resposta de 192.168.1.19: bytes=32 tempo=2ms TTL=126
-Resposta de 192.168.1.19: bytes=32 tempo=3ms TTL=126
-Resposta de 192.168.1.19: bytes=32 tempo=2ms TTL=126
-Resposta de 192.168.1.19: bytes=32 tempo=2ms TTL=126
+Disparando youtube.com [142.251.128.14] com 32 bytes de dados:
+Resposta de 142.251.128.14: bytes=32 tempo=2ms TTL=126
+Resposta de 142.251.128.14: bytes=32 tempo=3ms TTL=126
+Resposta de 142.251.128.14: bytes=32 tempo=2ms TTL=126
+Resposta de 142.251.128.14: bytes=32 tempo=2ms TTL=126
 
-Estat¡sticas do Ping para 192.168.1.19:
+Estat¡sticas do Ping para 142.251.128.14:
     Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
              perda),
 Aproximar um n£mero redondo de vezes em milissegundos:
