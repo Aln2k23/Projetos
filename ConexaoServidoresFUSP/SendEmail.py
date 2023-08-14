@@ -12,7 +12,7 @@ class UrgentSendEmail:
     def Sending(self):
         true_or_false, message = Text_Validate(self.host, self.host_found, self.connection_ms)
         if true_or_false == True:
-            send('ala.pereiradocavalcante@gmail.com', message)
+            send('emailteste@gmail.com', message)
             print('Servidor Error! Email de monitoramento enviado!\n\n')
             sleep(4)
         else:
