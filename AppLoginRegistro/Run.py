@@ -8,7 +8,7 @@ from Emails import enviar_email, validar_o_email
 
 # CONEXÃO COM SERVIDOR
 dados_conexao = ('Driver={SQL Server};'
-                 'Server=AlanPc\SQLALAN;' 
+                 'Server=...;' 
                  'Database=InterfaceGrafica;')
 
 conexao = pyodbc.connect(dados_conexao)
