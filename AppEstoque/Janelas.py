@@ -1,4 +1,4 @@
-import PySimpleGUI as sg
+import PySimpleGUI as sg ___
 from Querys import cursor, query_consult
 
 def table_columns():
